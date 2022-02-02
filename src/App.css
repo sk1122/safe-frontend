@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --outline-color: #dbc2cf;
+  --fill-color: transparent;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.bg-text {
+  color: transparent;
+  font-size: 400px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
