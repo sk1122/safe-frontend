@@ -12,12 +12,26 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
+  font-weight: bold;
 }
+
+.bg {
+  /* background-image: url('https://cdn.discordapp.com/attachments/929268303761928222/938467186849247342/Request_Access.png');
+  background-size: cover; */
+}
+
 
 .bg-text {
   color: transparent;
-  font-size: 400px;
-  -webkit-text-stroke-width: 2px;
+	/* font-size: 400px; */
+  stroke-width: 0.3px;
+	-webkit-text-stroke-width: 0.3px;
   -webkit-text-stroke-color: white;
+}
+
+.text {
+  display: table;
+  color: white;
+  font-size: 4.2vw;
 }
